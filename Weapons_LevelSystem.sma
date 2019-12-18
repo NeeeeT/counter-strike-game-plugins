@@ -70,7 +70,7 @@ new const g_weapons_real_name[MAX_WPS_NUM][] =
 	"Deagle",
 	"SG552",
 	"AK47",
-	"刀",
+	"K",
 	"P90"
 }
 new const g_weapons_exp[MAX_WPS_NUM][] = 

@@ -3,12 +3,12 @@
 #include <hamsandwich>
 #include <nvault>
 
-#define PLUGIN "槍械升級系統"
+#define PLUGIN "Weapons Level System"
 #define VERSION "1.0"
 #define AUTHOR "Nailaz"
 
 #define MAX_WPS_NUM 26
-#define TASK_SAVEx 1999333
+#define TASK_SAVEx 2019
 #define ID_SAVEx (taskid - TASK_SAVEx)
 
 new g_wps_level[33][MAX_WPS_NUM], g_wps_exp[33][MAX_WPS_NUM]
@@ -109,7 +109,7 @@ public plugin_init()
 	RegisterHam(Ham_Player_PreThink, "player", "fw_PlayerPreThink")
 
 	register_event("CurWeapon", "Event_CurWeapon", "be", "1=1")
-	register_event("Damage", "on_damage", "b", "2!0", "3=0", "4!0")
+	register_event("Damage", "Damage_Event", "b", "2!0", "3=0", "4!0")
 	register_clcmd("set_gunxp", "clcmd_setgxp")
 	register_clcmd("say wpsinfo", "clcmd_wpsinfo")
 }
@@ -186,7 +186,7 @@ public clcmd_setgxp(id, level, cid)
 	}
 	return PLUGIN_HANDLED
 }
-public on_damage(id)
+public Damage_Event(id)
 {
 	static attacker; attacker = get_user_attacker(id)
 	static damage; damage = read_data(2)
@@ -295,7 +295,7 @@ public show_hud_weapons(id)
 	new x = str_to_num(g_weapons_exp[n])*g_wps_level[id][n]
 	new Float:y = g_wps_level[id][n]*2.0
 	set_hudmessage(110, 110, 150, 0.65555, 0.8, 0, 6.0, 1.1, 0.1, 0.1, -1)
-	show_hudmessage(id, "武器: %s | 等級: %d | 經驗值: %d/%d | 傷害 +%.1f％", g_weapons_real_name[n], g_wps_level[id][n], g_wps_exp[id][n], x, y)
+	show_hudmessage(id, "Weapons: %s | Level: %d | Exp: %d/%d | Damage +%.1f％", g_weapons_real_name[n], g_wps_level[id][n], g_wps_exp[id][n], x, y)
 	huding[id] = true
 	set_task(1.2, "show_hud_weapons", id)
 	return PLUGIN_HANDLED

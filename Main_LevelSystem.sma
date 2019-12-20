@@ -7,7 +7,7 @@
 #define VERSION "1.0"
 #define AUTHOR "Nailaz"
 
-#define MAX_VAR_EXISTS 30
+#define MAX_VAR_EXISTS 30	//To define how much variables can exists.
 new g_var[33][MAX_VAR_EXISTS]
 new g_checkname[33]
 new g_vault
@@ -22,6 +22,7 @@ enum
 	spoint,
 	online_time,//second
 	create_time,//ex: 19990803
+	/*You can add more var you need as above.*/
 }
 
 public plugin_init()

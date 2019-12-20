@@ -1,8 +1,10 @@
-# Counter-Strike1.6
+# Amxmodx Sources for Counter-Strike1.6
 Hi, I'm Nailaz.
-Here's my Amxmodx Scripts for the game Counter-Strike 1.6.
+Here's my Amxmodx Sources for the game Counter-Strike 1.6.
 .sma file type (source) is provided, you can use amxx compiler to compile it to .amxx type.
-All of it is public, if any problem or bug just contact me.
+All of it is public and coded by myself,
+if any problem or bug just contact me.
+
 E : nailaznet7@gmail.com
 
 ------------------------------------

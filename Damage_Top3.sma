@@ -56,7 +56,7 @@ public Damage_Event(id)
 	D_HUD_B = random_num(0, 255)
 
 	ShowDirectorMessage(attacker, get_pcvar_float(d_hud_x), 0.4+(0.05*dmg_mode[attacker]), D_HUD_R, D_HUD_G, D_HUD_B, 0, 0.1, 0.1, 1.0, 0.0, "%.1f", dmg_take[attacker])
-	//Above is to show the damage dealt by you with HUD. if u dont want this just comma it.
+	//Above is to show the damage dealt by you with HUD. if u dont want it this just comma it.
 	dmg_take[attacker] -= damage
 
 	return PLUGIN_HANDLED
@@ -78,7 +78,7 @@ public logevent_round_start()
 	for(new i = 0 ; i <= 2 ; i++)
 		g_player_dmg[i] = 0.0
 
-	top1 = "None"
+	top1 = "None"	//Reset the top3 name after a new round began.
 	top2 = "None"
 	top3 = "None"
 	set_task(0.5, "set_dmg_list", _, _, _, "b")

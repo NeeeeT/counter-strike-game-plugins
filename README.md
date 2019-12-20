@@ -24,10 +24,9 @@ Every new round will update its top3 name and dmg var.
 
 - Main LevelSystem info:
 
-------------------------------------
-
 It's a simple but very useful and creative plugin that makes cs1.6 more like a RPG game.
 Here's level, exp, cash, gold, etc. all variable provided will be autosaved.
 The source contains many API so that you can use them to attain many funny things.
 *the plugin also has a limit on player's changing name function, since the player's var was saved by game name.
 
+------------------------------------

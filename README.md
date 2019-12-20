@@ -22,7 +22,7 @@ Every new round will update its top3 name and dmg var.
 
 ------------------------------------
 
-- Main LevelSystem
+- Main LevelSystem info:
 
 ------------------------------------
 

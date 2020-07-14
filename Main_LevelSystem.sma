@@ -7,7 +7,7 @@
 #define VERSION "1.0"
 #define AUTHOR "Nailaz"
 
-#define MAX_VAR_EXISTS 30	//To define how much variables can exists.
+#define MAX_VAR_EXISTS 30	//To define how much variables can exist.
 new g_var[33][MAX_VAR_EXISTS]
 new g_checkname[33]
 new g_vault

@@ -32,3 +32,10 @@ The source contains many API so that you can use them to attain many funny thing
 *the plugin also has a limit on player's changing name function, since the player's var was saved by game name.
 
 ------------------------------------
+
+- RegisterSystem info:
+
+After installing the plugin in cs1.6, everyone enter your server will be need to register
+an account with password.
+
+*Current Language : 繁體中文(zh-TW)

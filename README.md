@@ -39,3 +39,12 @@ After installing the plugin in cs1.6, everyone enter your server will be need to
 an account with password.
 
 *Current Language : 繁體中文(zh-TW)
+
+------------------------------------
+
+MapChanger info:
+After installing the plugin in cs1.6, you can type "rtv" (menas rock the vote) to
+push map change request, and allow every player in the server to vote next map.
+there's some cvars in the sma, look that by yourself. it's simple. :)
+
+*Current Language : 繁體中文(zh-TW)

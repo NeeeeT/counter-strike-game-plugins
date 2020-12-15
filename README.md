@@ -43,7 +43,7 @@ an account with password.
 ------------------------------------
 
 MapChanger info:
-After installing the plugin in cs1.6, you can type "rtv" (menas rock the vote) to
+After installing the plugin in cs1.6, you can type "rtv" (means rock the vote) to
 push map change request, and allow every player in the server to vote next map.
 there's some cvars in the sma, look that by yourself. it's simple. :)
 

@@ -1,50 +1,27 @@
-# RPG Amxmodx scripts for Counter-Strike1.6
-Hi, I'm Nailaz.
-Here's my amxmodx scripts for the game Counter-Strike 1.6.
-.sma file type (source) is provided, you can use amxx compiler to compile it to .amxx type.
-All of it is public and coded by myself,
-if any problems or bug just contact me.
+Hello, I'm Nailaz.
 
-E : nailaznet7@gmail.com
+I would like to share my Amxmodx scripts for Counter-Strike 1.6 with you. These scripts are in the .sma file format (source code), and you can use the amxx compiler to compile them into .amxx files. All of the scripts are public and coded by me. If you encounter any problems or bugs, feel free to contact me.
 
-------------------------------------
-- Weapons Level System info:
+Email: nathanmultiple@gmail.com
 
-The script / plugin source added extra feature for cs1.6 weapons.
-You can use its APIs to achieve many things like adding weapon's damage depend on its level.
-All of its level and exp will autosave during the game. 
+## Weapons Level System:
+This script/plugin adds an extra feature for Counter-Strike 1.6 weapons. You can utilize its APIs to implement various functionalities, such as adjusting weapon damage based on its level. The levels and experience points of weapons will be automatically saved during the game.
 
-------------------------------------
+## Top 3 Damage Dealers:
+This script displays the names of the top 3 damage dealers in each round, using a HUD list format. The script includes cvars for adjusting the position on the screen, colors, and other settings. The top 3 names and damage values will be updated at the start of each new round.
 
-- Top3 Damage Dealer info:
+## Main Level System:
+This simple yet valuable plugin turns Counter-Strike 1.6 into a more RPG-like game. It provides variables for level, experience, cash, gold, and more, all of which are automatically saved. The source code includes many APIs that you can utilize to create various entertaining features. Additionally, the plugin includes a name change limit to ensure player variables are tied to their in-game names.
 
-This shows the name of top3 damage dealer within a round, with HUD list form.
-There's some cvars about it in the script like x-axis, y-axis and colors setting.
-Every new round will update its top3 name and dmg var.
+## Register System:
+After installing this plugin on your Counter-Strike 1.6 server, every player will need to register an account with a password.
 
-------------------------------------
+- * Current Language: Traditional Chinese (zh-TW)
 
-- Main LevelSystem info:
+## Map Changer:
 
-It's a simple but very useful and creative plugin that makes cs1.6 more like a RPG game.
-Here's level, exp, cash, gold, etc. all variable provided will be autosaved.
-The source contains many API so that you can use them to attain many funny things.
-*the plugin also has a limit on player's changing name function, since the player's var was saved by game name.
+With this plugin installed in Counter-Strike 1.6, you can initiate a map change request by typing "rtv" (short for "rock the vote"). This allows all players in the server to vote for the next map. The script includes cvars that you can customize to your preferences. It's a straightforward process!
 
-------------------------------------
+- * Current Language: Traditional Chinese (zh-TW)
 
-- RegisterSystem info:
-
-After installing the plugin in cs1.6, everyone enter your server will be need to register
-an account with password.
-
-*Current Language : 繁體中文(zh-TW)
-
-------------------------------------
-
-MapChanger info:
-After installing the plugin in cs1.6, you can type "rtv" (means rock the vote) to
-push map change request, and allow every player in the server to vote next map.
-there's some cvars in the sma, look that by yourself. it's simple. :)
-
-*Current Language : 繁體中文(zh-TW)
+If you have any questions or need further assistance, please don't hesitate to reach out.

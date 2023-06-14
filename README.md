@@ -16,12 +16,12 @@ This simple yet valuable plugin turns Counter-Strike 1.6 into a more RPG-like ga
 ## Registeration System:
 After installing this plugin on your Counter-Strike 1.6 server, every player will need to register an account with a password.
 
-- * Current Language: Traditional Chinese (zh-TW)
+- Current Language: Traditional Chinese (zh-TW)
 
 ## Map Changer:
 
 With this plugin installed in Counter-Strike 1.6, you can initiate a map change request by typing "rtv" (short for "rock the vote"). This allows all players in the server to vote for the next map. The script includes cvars that you can customize to your preferences. It's a straightforward process!
 
-- * Current Language: Traditional Chinese (zh-TW)
+- Current Language: Traditional Chinese (zh-TW)
 
 If you have any questions or need further assistance, please don't hesitate to reach out.
